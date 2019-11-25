@@ -1,8 +1,6 @@
 from flask import Flask
 from threading import Thread
-import discord
-from discord.ext import commands
-from discord import Game
+import https://github.com/Rapptz/discord.py
 import random
 import os
 import json
