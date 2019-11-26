@@ -450,9 +450,8 @@ async def setup(ctx):
       "companions": ""
     }
   f = open("players/{}.json".format(caller),"w+")
-  players = json.loads(f.read())
-  players[caller] = playerinfo
-  json.dump(players,f)
+  f = open("players/{}.json".format(caller),"w+")
+  players = json.dump(playerinfo, r)
   f.close()
   await ctx.send("Done!")
 
