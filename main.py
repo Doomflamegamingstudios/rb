@@ -26,7 +26,7 @@ def keep_alive():
 
 description = ''
 bot = commands.Bot(command_prefix='/', description=description)
-token = "NjQ3ODM3NjA1NTU1MjA4MjEy.XdwIxA.GyrCltTXsrYdPKKPgiLwUW-WM7U"
+token = os.getenv("TOKEN")
 client = discord.Client()
 
 @bot.event
