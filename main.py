@@ -482,5 +482,5 @@ async def setstats(ctx):
       await ctx.send("no profile found")
 
 
-keep_alive()
+#keep_alive()
 bot.run(token)
